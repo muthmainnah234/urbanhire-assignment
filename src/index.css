@@ -1,0 +1,127 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .col-header.col {
+    padding: 0; 
+  }
+}
+
+.col-left {
+  margin-bottom: 20px;
+}
+
+.col-right img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.container-header {
+  background-size: cover;
+  background-position-y: bottom;
+  background-color: rgb(99, 90, 83);
+  background-blend-mode: multiply;
+  padding: 25px;
+  color: rgb(226, 226, 226);
+}
+
+.image-header {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.title-profile {
+  margin: 20px 0;
+  font-size: 18pt;
+  color: rgb(94, 93, 93);
+}
+
+.col-key {
+  color: gray;
+}
+
+.col-value {
+  color: rgb(94, 93, 93);
+}
+
+.col-key div, .col-value div {
+  margin-bottom: 10px;
+}
+
+.logo-urbanhire {
+  max-width: 160px;
+}
+
+.container-navbar {
+  padding: 8px;
+}
+
+.container-navbar .col {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.navbar-form .col {
+  padding: 0;
+}
+
+.navbar-right .row {
+  float: right;
+}
+
+.navbar-right button {
+  border: none;
+  background-color: inherit;
+}
+
+.w3-sidebar {
+  right: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.w3-bar-item {
+  background-color: inherit
+}
+
+button.w3-bar-item.w3-large {
+  color: rgb(177, 177, 177);
+}
+
+.navbar {
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.form-search {
+  display: block !important;
+}
+
+.btn-search {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-search {
+    display: none !important;
+  }
+  
+  .btn-search {
+    display: block !important;
+  }
+}
+
+.w3-bar-item i {
+  margin-right: 15px;
+}
+
+.text-red {
+  color: rgb(192, 75, 75);
+}
